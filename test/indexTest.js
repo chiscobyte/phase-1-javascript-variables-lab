@@ -1,9 +1,7 @@
-require ( './helpers.js' );
-
 const fs = require('fs')
 const path = require('path')
 
-const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+const js = fs.readFileSync(path.resolve(__dirname, '..', 'indexTest.js'), 'utf-8')
 
 describe('index.js', function () {
   describe('companyName', function () {
